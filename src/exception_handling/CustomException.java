@@ -3,8 +3,8 @@
 package exception_handling;
 
 
-class MyException extends Exception {
-	public MyException(String s) {
+class MyException extends Exception {     
+	public MyException(String s) {   
    
      super(s);
  }

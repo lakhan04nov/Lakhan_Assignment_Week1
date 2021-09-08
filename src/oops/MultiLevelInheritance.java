@@ -14,10 +14,11 @@ class Car {
    }
 }
   class Maruti extends Car {
-   public Maruti()
+   public Maruti()               //  by defalt super() called...jab bhi kisi constructor ko banate h to ki subclass ka object namaya to sabse pehle sub class ka const. call hoga 
    {
-	System.out.println("Class Maruti");
-   }
+	System.out.println("Class Maruti");    // constructor ki pehlli line by dealt super(() hoti h to wo  construke ctor cal hone se pehle apni super class 
+	
+   }                                       //    ke constructor ko call karta h......
    public void brand()
    {
 	
